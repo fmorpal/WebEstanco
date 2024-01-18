@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/boostrap.css">
+    <link rel="stylesheet" href="css/foodhut.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Contacto</title>
+</head>
+<body class="fondocontacto">
+    <!-- Navbar -->
+    <nav class="custom-navbar navbar navbar-expand-lg navbar-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../Estanco Web Actualizada/index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Estanco Web Actualizada/cachimba.html">Shisha</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Estanco Web Actualizada/tabaco.html">Tabaco</a>
+                </li>
+            </ul>
+            <a class="navbar-brand m-auto" href="#">
+                <img src="img/logo.png" class="brand-img" alt="">
+                <span class="brand-txt">Estanco 32 Nervion</span>
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../Estanco Web Actualizada/contacto.html">Contactanos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+   <!-- Formulario -->
+
+   <div class="container-fluid flex-grow-1 d-flex margenArriba justify-content-center align-items-center registration-form">
+    <div class="col-md-7 col-lg-8 mt-4 mb-4">
+        <form class="needs-validation" id="registrationForm">
+            <div class="row g-3">
+                <div class="col-sm-6">
+                    <label for="firstName" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="firstName" required>
+                    <div class="invalid-feedback">
+                        Se requiere un nombre válido.
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <label for="lastName" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="lastName" required>
+                    <div class="invalid-feedback">
+                        Se requiere un apellido válido.
+                    </div>
+                </div>
+
+                <div class="col-12">
+    <label for="username" class="form-label">Nombre de usuario</label>
+    <div class="input-group has-validation">
+        <span class="input-group-text" style="background-color: #ffffff; color: #000000;">@</span>
+        <input type="text" class="form-control" id="username" placeholder="Nombre de usuario" required>
+        <div class="invalid-feedback">
+            Se requiere un nombre de usuario válido.
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-12">
+                    <label for="email" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="tucorreo@gmail.com" required>
+                    <div class="invalid-feedback">
+                        Por favor, introduce una dirección de correo electrónico válida.
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <label for="password" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="password" placeholder="Contraseña" required>
+                    <div class="invalid-feedback">
+                        Se requiere una contraseña válida.
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <label for="message" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje aquí"
+                        required></textarea>
+                    <div class="invalid-feedback">
+                        Por favor, introduce un mensaje.
+                    </div>
+                </div>
+
+                <div class="col-12 text-center mb-3">
+                    <button class="btn btn-primary" type="submit" onclick="validarFormulario(event)">Enviar</button>
+                </div>
+            </div>
+        </form>
+
+<!-- page footer -->
+<div class=" text-light text-center border-top wow fadeIn footermargen">
+    <div class="container">
+      <div class="row">
+    
+        <!-- Columna central para el copyright -->
+        <div class="col-md-7 mx-auto">
+          <p class="text-muted small">
+            &copy; Copyright Todos los derechos reservados 
+            <i class="text-primary">Fran, Luismi, Jesus y Pablo</i>
+          </p>
+        </div>
+        
+      
+      </div>
+    </div>
+  </div>
+
+    
+</body>
+</html>

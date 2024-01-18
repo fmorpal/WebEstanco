@@ -1,0 +1,81 @@
+.tarjetas {
+
+    margin-left: 100px;
+    
+    /* Adjust the value according to your navbar height */
+}
+
+.containerTabaco {
+    margin-top: 56px; /* Adjust the value according to your navbar height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjetas {
+    width: 100%;
+}
+.containercontacto {
+    margin-top: 50px;
+}
+
+
+
+.card-text {
+    color: #555;
+  }
+
+  .text-body-secondary {
+    color: #555;
+  }
+
+  /* Agrega estos estilos al final de tu archivo CSS o en el archivo custom.css */
+body {
+    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Restablece las propiedades de altura para evitar la barra de desplazamiento vertical */
+.containerTabaco {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Asegúrate de que el contenedor del cuerpo también tenga una altura del 100% */
+.bodyTabaco {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-size: cover;
+}
+.precio{
+    font-size: x-large;
+    text-align: right;
+}
+
+.fondocontacto{
+    height: 200vh;
+  max-height: 1000px;
+  background-image: url("../img/fondocontact.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.fondotabaco{
+    height: 200vh;
+    max-height: 1000px;
+    background-image: url("../img/wiz.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
